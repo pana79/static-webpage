@@ -6,6 +6,7 @@ import Featured from './components/featured/index'
 import VenueNfo from './components/venueNfo/index'
 import Highlights from './components/Highlights/index'
 import Pricing from './components/pricing/index'
+import Location from './components/location/index'
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <VenueNfo/>
         <Highlights/>
         <Pricing/>
+        <Location/>
       </div>
     )
   }
